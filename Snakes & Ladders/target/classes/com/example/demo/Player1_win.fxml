@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="709.0" prefWidth="645.0" styleClass="bodybg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+   <children>
+      <ImageView layoutX="267.0" layoutY="261.0">
+         <image>
+            <Image url="@../../../p2.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#eae9e9" layoutX="170.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player1 wins!!!!">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
